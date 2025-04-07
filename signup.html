@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body style="background-image: url(cover1.jpg);background-repeat: no-repeat;background-size: cover;">
+      <div class="main">
+        <h1 style="margin-left: 4%;margin-top: 14% ;" >Registration</h1><hr>
+          <label style="margin-right:50px;">NAME:</label> <input type="text" name="uname" placeholder="Enter your name" class="box"><br><br>
+          <label style="margin-right:53px;">EMAIL:</label> <input type="email"  placeholder="Enter your email" class="box"><br><br>
+          <label style="margin-right:20px;">PASSWORD:</label> <input type="password"  placeholder="Enter your password" class="box"><br><br>
+          <label style="margin-right: 30px;">LOCATION:</label>
+          <select class="dropdown">
+            <option name="LOCATION" value="MADURAI">MADURAI</option>
+            <option name="LOCATION" value="CHENNAI">CHENNAI</option>
+            <option name="LOCATION" value="TRICHY">TRICHY</option>
+          </select><br><br>
+        <label for="GENDER" style="margin-right:102px;"class="gender">GENDER:</label> <label><input type="radio" name="GENDER" value="MALE" >MALE</label> <label><input type="radio" name="GENDER" value="FEMALE">FEMALE</label><br><br>      
+        <label style="margin-right: 110px;">SKILLS:</label>
+      <label><input type="checkbox" name="skills" value="HTML">HTML</label> 
+      <label><input type="checkbox" name="skills" value="CSS">CSS</label>
+      <label><input type="checkbox" name="skills" value="JS" >JS</label><br><br>
+      <input type="checkbox"><label>I hereby accept all terms and conditions.</label><br><br>
+      <button style="margin-left: 1%;" class="submit">SUBMIT</button>
+    </div>
+    <div  class="sub">
+      
+      <p style="margin-left: 26%;">Already have an account? <a href="signin.html">Signin</p></a>
+    </div>
+</body>
+</html>
