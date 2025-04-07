@@ -1,0 +1,49 @@
+.main{
+    margin-left: 33%;
+    background-color: rgba(255, 255, 255, 0.295);
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border-radius: 13px;
+}
+.sub{
+    background-color: white;
+    width:30%;margin-left:33%;
+    border-radius: 13px;
+}
+.submit{
+    background-color: rgba(255, 255, 255, 0.295);
+}
+.box{
+    background-color: white;
+    padding: 10px;
+    border-radius:10px;
+    border-color:pink;
+    width: 200px;  
+    margin: 1px auto;  
+}
+.dropdown{
+    background-color: white;
+    padding:5px;
+    width:200px;
+    border-radius: 7px;
+    margin-right: 8px;
+    border-color: black;
+    border: 25%;
+
+}
+.radio{
+    margin-right: 25px;
+    display: flex;
+    margin-right: 20px;
+
+}
+.submit{
+    background-color: purple;
+    color: white;
+    padding:12px;
+    width:220px;
+    margin-bottom: 8px;
+    border: 2px;
+    border-radius: 12px;
+}
